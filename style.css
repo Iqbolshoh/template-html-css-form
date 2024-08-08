@@ -1,13 +1,19 @@
 *,
 *::before,
-*:after {
-    padding: 0px;
-    margin: 0px;
+*::after {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
     background-color: #1c1a21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .backgraund {
@@ -45,12 +51,14 @@ form {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
-    margin-left: 50%;
+    left: 50%;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
     padding: 50px 35px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
 }
 
 form * {
@@ -66,6 +74,7 @@ form h3 {
     font-weight: 500;
     line-height: 42px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 label {
@@ -81,10 +90,11 @@ input {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.07);
     border-radius: 3px;
-    padding: 0px 10px;
+    padding: 0 10px;
     margin-top: 8px;
     font-size: 14px;
     font-weight: 300;
+    color: #ffffff;
 }
 
 ::placeholder {
@@ -92,32 +102,41 @@ input {
 }
 
 button {
-    margin-top: 50px;
+    margin-top: 35px;
     width: 100%;
     background-color: #ffffff;
     color: #080710;
     padding: 15px 0;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
     display: flex;
     justify-content: center;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #080710;
+    color: #ffffff;
 }
 
 .social {
-    margin-top: 30px;
+    margin-top: 25px;
     display: flex;
+    justify-content: space-between;
 }
 
 .social div {
-    width: 150px;
+    width: 49%;
     border-radius: 3px;
-    padding: 10px;
+    padding: 12px;
     background-color: rgba(255, 255, 255, 0.27);
     color: #eaf0fb;
     text-align: center;
+    transition: background-color 0.3s ease;
 }
 
 .social div:hover {
@@ -125,58 +144,29 @@ button {
 }
 
 .social .fb {
-    margin-left: 25px;
+    background-color: #3b5998;
 }
 
-@media (max-width: 1024px) {
+.social .fb:hover {
+    background-color: #8b9dc3;
+}
 
-    form {
-        height: 600px;
-        width: 500px;
-    }
-
-
-    label {
-        margin-top: 40px;
-    }
-
-    input {
-        height: 60px;
-        width: 100%;
-        font-size: 16px;
-    }
-
-    button {
-        width: 100%;
-        height: 65px;
-        font-size: 20px;
-    }
-
-    .social div {
-        width: 220px;
-        border-radius: 3px;
-        padding: 5px 10px 10px 5px;
-    }
-
-    .social .go,
-    .fb {
-        margin-top: 10px;
-        font-size: 25px;
+@media (max-width: 520px) {
+    .backgraund .shape {
+        height: 150px;
+        width: 150px;
     }
 
     .shape:first-child {
-        left: -120px;
-        top: -120px;
+        left: 0px;
+        top: 0px;
     }
 
     .shape:last-child {
-        right: -120px;
-        bottom: -120px;
+        right: 0px;
+        bottom: 0px;
     }
-}
 
-
-@media (max-width: 480px) {
     form {
         height: 420px;
         width: 330px;
@@ -192,81 +182,35 @@ button {
     }
 
     button {
-        margin-top: 15px;
         height: 40px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .social div {
         width: 120px;
-        margin: 0px;
     }
-
 
     .social .go,
     .fb {
-        margin: 0px;
         font-size: 18px;
-    }
-
-    .backgraund .shape {
-        height: 180px;
-        width: 180px;
-    }
-
-    .shape:first-child {
-        left: 10px;
-        top: 10px;
-    }
-
-    .shape:last-child {
-        right: 10px;
-        bottom: 10px;
     }
 }
 
 @media (max-width: 380px) {
-
     form {
         height: 420px;
         width: 315px;
     }
 
     .backgraund .shape {
-        height: 160px;
-        width: 160px;
-    }
-
-    .shape:first-child {
-        left: 15px;
-        top: 15px;
-    }
-
-    .shape:last-child {
-        right: 15px;
-        bottom: 15px;
+        height: 130px;
+        width: 130px;
     }
 }
-
 
 @media (max-width: 330px) {
     form {
         height: 420px;
         width: 300px;
-    }
-
-    .backgraund .shape {
-        height: 140px;
-        width: 140px;
-    }
-
-    .shape:first-child {
-        left: 0px;
-        top: 0px;
-    }
-
-    .shape:last-child {
-        right: 0px;
-        bottom: 0px;
     }
 }
