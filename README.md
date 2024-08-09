@@ -2,13 +2,6 @@
 
 A stylish and modern login form template built with HTML and CSS. This template features a clean design with responsive elements, ideal for integrating into any web application or project that requires a login interface.
 
-## Features
-
-- **Responsive Design**: Adapts to various screen sizes and devices.
-- **Modern UI Elements**: Includes stylish buttons and input fields.
-- **Customizable**: Easy to modify and integrate into your project.
-- **Animated Elements**: Smooth transitions and hover effects.
-
 ## Preview
 
 ### Desktop
@@ -18,6 +11,13 @@ A stylish and modern login form template built with HTML and CSS. This template 
 ### Mobile
 
 ![Mobile Preview](./images/mobile.png) <!-- Update with your own image -->
+
+## Features
+
+- **Responsive Design**: Adapts to various screen sizes and devices.
+- **Modern UI Elements**: Includes stylish buttons and input fields.
+- **Customizable**: Easy to modify and integrate into your project.
+- **Animated Elements**: Smooth transitions and hover effects.
 
 ## Getting Started
 
