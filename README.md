@@ -11,7 +11,13 @@ A stylish and modern login form template built with HTML and CSS. This template 
 
 ## Preview
 
-![Login Form Preview](./images/preview.png) <!-- Update with your own image -->
+### Desktop
+
+![Desktop Preview](./images/banner.png) <!-- Update with your own image -->
+
+### Mobile
+
+![Mobile Preview](./images/mobile.png) <!-- Update with your own image -->
 
 ## Getting Started
 
@@ -40,8 +46,7 @@ Feel free to submit pull requests or open issues if you have suggestions for imp
 
 ## Connect with Me
 
-I love connecting with new people and exploring new opportunities. Feel free to reach out to me through any of the
-platforms below:
+I love connecting with new people and exploring new opportunities. Feel free to reach out to me through any of the platforms below:
 
 <table>
     <tr>
