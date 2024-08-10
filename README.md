@@ -6,7 +6,7 @@ A stylish and modern login form template built with HTML and CSS. This template 
 
 ### Desktop
 
-![Desktop Preview](./images/banner.png)
+![Desktop Preview](./images/desktop.png)
 
 ### Mobile
 
