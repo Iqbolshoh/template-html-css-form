@@ -40,6 +40,16 @@ A stylish and modern login form template built with HTML and CSS. This template 
 - Replace the placeholder text and colors in `style.css` to match your branding.
 - Integrate the form into your web application as needed.
 
+## Technologies
+
+<div style="display: flex; flex-wrap: wrap; gap: 5px;">
+    <img src="https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white"
+        alt="HTML">
+    <img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+    <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+        alt="JavaScript">
+</div>
+
 ## Contributing
 
 Feel free to submit pull requests or open issues if you have suggestions for improvements or encounter any problems.
