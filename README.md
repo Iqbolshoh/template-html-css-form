@@ -46,8 +46,6 @@ A stylish and modern login form template built with HTML and CSS. This template 
     <img src="https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white"
         alt="HTML">
     <img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
-    <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
-        alt="JavaScript">
 </div>
 
 ## Contributing
