@@ -50,7 +50,7 @@ A stylish and modern login form template built with HTML and CSS. This template 
 
 ## Contributing
 
-Feel free to submit pull requests or open issues if you have suggestions for improvements or encounter any problems.
+Contributions are welcome! If you have suggestions or want to enhance the project, feel free to fork the repository and submit a pull request.
 
 ## Connect with Me
 
