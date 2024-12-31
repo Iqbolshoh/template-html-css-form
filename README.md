@@ -6,11 +6,11 @@ A stylish and modern login form template built with HTML and CSS. This template 
 
 ### Desktop
 
-![Desktop Preview](./images/desktop.png)
+![Desktop Preview](./src/images/desktop.png)
 
 ### Mobile
 
-![Mobile Preview](./images/mobile.png)
+![Mobile Preview](./src/images/mobile.png)
 
 ## Features
 
